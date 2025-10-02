@@ -1,30 +1,46 @@
 {
-    "friendly_name": "溯零云随机图片", 
-    "intro": "溯零云随机图片API，支持摄影、二次元等多种类型", 
-    "icon": "https://rpic.origz.com/favicon.ico",
-    "link": "https://rpic.origz.com/api.php?",
-    "func": "GET",
-    "APICORE_version": "1.0",
-    "parameters": [
-        {
-            "name": "category",
-            "type": "enum",
-            "required": true,
-            "value": ["photography", "pixiv", "ai", "aesthetic", "science", "texture", "histogram"], 
-            "friendly_value": ["摄影记录", "二次元", "AI绘图", "唯美场景", "科幻未来", "质感设计", "方图"],
-            "friendly_name": "壁纸尺寸",
-            "min_value": null,
-            "max_value": null,
-            "split_str": null
-        }
-    ],
-    "response": {
-      "image": {
-        "content_type": "BINARY",
-        "path": "",
-        "is_list": false,
-        "is_base64": false
-      },
-      "others": []
+  "friendly_name": "溯零云随机图片",
+  "intro": "溯零云随机图片API，支持摄影、二次元等多种类型",
+  "icon": "data:image/svg+xml;base64,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",
+  "link": "https://rpic.origz.com/api.php?",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "name": "category",
+      "type": "enum",
+      "required": true,
+      "value": [
+        "photography",
+        "pixiv",
+        "ai",
+        "aesthetic",
+        "science",
+        "texture",
+        "histogram"
+      ],
+      "friendly_value": [
+        "摄影记录",
+        "二次元",
+        "AI绘图",
+        "唯美场景",
+        "科幻未来",
+        "质感设计",
+        "方图"
+      ],
+      "friendly_name": "壁纸尺寸",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
     }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
   }
+}

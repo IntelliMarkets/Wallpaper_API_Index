@@ -1,6 +1,6 @@
 <div align="center">
   
-# <image src="https://github.com/user-attachments/assets/83078bfd-fb6a-4ffd-90b2-27bf7f611bf9" height="45"/>  壁纸生成器 - 图片源市场
+# <image src="https://github.com/user-attachments/assets/3b85e1ef-35e3-4f95-bf5e-90ca7f8fae13" height="45"/>  壁纸生成器 - 图片源市场
  <img src="https://img.shields.io/badge/FREE-100%25-brightgreen" alt="FREE">
 <img src="https://img.shields.io/badge/Language-Python-blue" alt="Language">
 <img alt="GitLab Stars" src="https://img.shields.io/github/stars/IntelliMarkets/Wallpaper_API_Index?label=Stars">

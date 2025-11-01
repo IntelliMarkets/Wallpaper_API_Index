@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 # <image src="https://github.com/user-attachments/assets/3b85e1ef-35e3-4f95-bf5e-90ca7f8fae13" height="45"/>  壁纸生成器 - 图片源市场
  <img src="https://img.shields.io/badge/FREE-100%25-brightgreen" alt="FREE">
 <img src="https://img.shields.io/badge/Language-Python-blue" alt="Language">
@@ -15,7 +15,7 @@
 >
 > 📢**下架公告**：由于来自 i18.net 的图片源已经全部失效，经与用户讨论决定，官方于 2025.10.01 下架了来自 i18 接口的「CosPlay」, 二次元ACG」和「真人/动漫/风景」三个图片源
 >
-> ✨**上新公告**：经用户推荐、网络搜集，于 2025.10.01 上架了 11 个新图片源
+> ✨**上新公告**：经用户推荐、网络搜集，于 2025.11.01 上架了 1 个新图片源
 
 ## 编写指南
 参见 **[APICORE 规范 1.0](https://github.com/SRON-org/APICORE/)**

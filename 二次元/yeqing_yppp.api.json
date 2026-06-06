@@ -1,0 +1,29 @@
+{
+  "friendly_name": "夜轻随机图",
+  "intro": "夜轻 Blog 的随机二次元图片 API，支持自动、横屏与竖屏",
+  "icon": "https://blog.yeqing.net/favicon.ico",
+  "link": "https://api.yppp.net/",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "type": "enum",
+      "required": true,
+      "value": ["api.php", "pc.php", "pe.php"],
+      "friendly_value": ["自动", "电脑横屏", "手机竖屏"],
+      "friendly_name": "壁纸类型",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

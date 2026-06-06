@@ -1,0 +1,41 @@
+{
+  "friendly_name": "赫萝随机图片",
+  "intro": "赫萝随机二次元图片 API，支持电脑、手机壁纸与头像",
+  "icon": "https://api.horosama.com/favicon.ico",
+  "link": "https://api.horosama.com/random.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "name": "type",
+      "type": "enum",
+      "required": true,
+      "value": ["pc", "mobile", "profile"],
+      "friendly_value": ["电脑横屏", "手机竖屏", "头像"],
+      "friendly_name": "壁纸类型",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    },
+    {
+      "name": "format",
+      "type": "string",
+      "required": true,
+      "value": "image",
+      "friendly_name": "",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null,
+      "enable": false
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

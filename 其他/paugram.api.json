@@ -1,0 +1,30 @@
+{
+  "friendly_name": "保罗壁纸",
+  "intro": "保罗 API 随机壁纸，可选择多个图源",
+  "icon": "https://api.paugram.com/favicon.ico",
+  "link": "https://api.paugram.com/wallpaper/",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "name": "source",
+      "type": "enum",
+      "required": true,
+      "value": ["sm", "cp", "sina", "paul", "gh", "jsd"],
+      "friendly_value": ["SM 图床", "CP", "新浪", "Paul", "GitHub", "jsDelivr"],
+      "friendly_name": "图片源",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

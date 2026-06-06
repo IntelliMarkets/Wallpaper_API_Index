@@ -1,0 +1,29 @@
+{
+  "friendly_name": "Imlazy 随机图",
+  "intro": "Imlazy 随机二次元图片 API，支持横屏与竖屏",
+  "icon": "https://api.imlazy.ink/favicon.ico",
+  "link": "https://api.imlazy.ink/",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "type": "enum",
+      "required": true,
+      "value": ["img", "img-phone"],
+      "friendly_value": ["横屏", "竖屏"],
+      "friendly_name": "壁纸类型",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "friendly_name": "98 情缘随机壁纸",
+  "intro": "98 情缘随机手机壁纸 API，直接返回一张随机壁纸",
+  "icon": "https://www.98qy.com/favicon.ico",
+  "link": "https://www.98qy.com/sjbz/api.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

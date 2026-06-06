@@ -1,0 +1,52 @@
+{
+  "friendly_name": "搏天 API",
+  "intro": "搏天随机图片 API，支持动漫、风景、美女等多种分类与横竖屏",
+  "icon": "https://api.btstu.cn/favicon.ico",
+  "link": "https://api.btstu.cn/sjbz/api.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "name": "lx",
+      "type": "enum",
+      "required": true,
+      "value": ["suiji", "dongman", "fengjing", "meizi"],
+      "friendly_value": ["随机", "动漫", "风景", "美女"],
+      "friendly_name": "壁纸类型",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    },
+    {
+      "name": "method",
+      "type": "enum",
+      "required": true,
+      "value": ["zsy", "pc", "mobile"],
+      "friendly_value": ["默认", "电脑横屏", "手机竖屏"],
+      "friendly_name": "壁纸尺寸",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    },
+    {
+      "name": "format",
+      "type": "string",
+      "required": true,
+      "value": "images",
+      "friendly_name": "",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null,
+      "enable": false
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

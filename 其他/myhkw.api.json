@@ -1,0 +1,29 @@
+{
+  "friendly_name": "明月浩空壁纸",
+  "intro": "明月浩空网每日壁纸 API，支持 Bing 每日壁纸与动态莫哈维昼夜图片",
+  "icon": "https://myhkw.cn/favicon.ico",
+  "link": "https://myhkw.cn/open/img/",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [
+    {
+      "type": "enum",
+      "required": true,
+      "value": ["bing", "mojave"],
+      "friendly_value": ["Bing 每日壁纸", "动态莫哈维昼夜"],
+      "friendly_name": "壁纸类型",
+      "min_value": null,
+      "max_value": null,
+      "split_str": null
+    }
+  ],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "friendly_name": "墨天逸随机图片",
+  "intro": "墨天逸随机图片 API，直接返回一张随机壁纸",
+  "icon": "https://api.mtyqx.cn/favicon.ico",
+  "link": "https://api.mtyqx.cn/api/random.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}

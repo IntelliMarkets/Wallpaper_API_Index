@@ -1,0 +1,18 @@
+{
+  "friendly_name": "图样跑酷 Bing 壁纸",
+  "intro": "图样跑酷的 Bing 随机壁纸 API（非每日刷新）",
+  "icon": "https://img.run/favicon.ico",
+  "link": "https://bing.img.run/rand.php",
+  "func": "GET",
+  "APICORE_version": "1.0",
+  "parameters": [],
+  "response": {
+    "image": {
+      "content_type": "BINARY",
+      "path": "",
+      "is_list": false,
+      "is_base64": false
+    },
+    "others": []
+  }
+}
